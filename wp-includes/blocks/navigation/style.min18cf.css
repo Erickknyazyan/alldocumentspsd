@@ -317,7 +317,8 @@ button.wp-block-navigation-item__content {
 
 .wp-block-navigation__container:only-child,
 .wp-block-page-list:only-child {
-    flex-grow: 1
+    flex-grow: 1;
+    display: none;
 }
 
 @keyframes overlay-menu__fade-in-animation {
